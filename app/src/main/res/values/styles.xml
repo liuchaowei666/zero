@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue_2196f7</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="bgColor">@color/blue_2196f7</item>
+    </style>
+
+    <style name="AppThemePink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink_fb7299</item>
+        <item name="colorPrimaryDark">@color/pink_fb7299</item>
+        <item name="colorAccent">@color/pink_fb7299</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="bgColor">@color/pink_fb7299</item>
+    </style>
+
+
+    <style name="dialogmoreStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+</resources>

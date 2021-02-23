@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Zero记账</string>
+    <string name="month_expend">本月支出</string>
+    <string name="month_income">本月收入</string>
+    <string name="month_surplus">本月结余</string>
+    <string name="statistics">报表统计</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon_backspace">&#xe611;</string>
+    <string name="text_qita">其它</string>
+    <string name="text_canyin">三餐</string>
+    <string name="add_remark">添加备注</string>
+    <string name="remark_add">输入备注…</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="remark">备注</string>
+    <string name="time">时间</string>
+    <string name="inserttime">请输入时间</string>
+    <string name="maohao">:</string>
+    <string name="item_detail">收支详情</string>
+    <string name="sort">分类</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="count">金额</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <string name="history_record">历史记录</string>
+    <string name="accountinfo">账单详情</string>
+    <string name="more_about">关于</string>
+    <string name="history_info">本月账单记录</string>
+    <string name="calendar_month">2021/2</string>
+    <string name="chart_analyze">报表统计</string>
+    <string name="expend">支出</string>
+    <string name="income">收入</string>
+    <string name="nodata">暂无数据</string>
+    <string name="regist">注册</string>
+    <string name="clickToLogin">点击登录</string>
+</resources>

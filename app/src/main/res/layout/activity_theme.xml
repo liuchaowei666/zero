@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f3f3f3"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/about_iv_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/it_back"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_centerVertical="true"
+        android:text="外观"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+  </RelativeLayout>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:text="封面图"
+      android:textAlignment="textStart"
+      android:textSize="20sp"
+      android:paddingStart="20dp" />
+
+  <Button
+      android:id="@+id/theme_blue"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/blue_2196f7"
+      android:layout_marginTop="20dp"
+      android:text="蓝色"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:paddingStart="20dp"
+      android:textAlignment="textStart" />
+
+  <Button
+      android:id="@+id/theme_pink"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/pink_fb7299"
+      android:layout_marginTop="20dp"
+      android:text="粉色"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:paddingStart="20dp"
+      android:textAlignment="textStart" />
+
+  <Button
+      android:id="@+id/theme_qing"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/green_009688"
+      android:layout_marginTop="20dp"
+      android:text="青色"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:paddingStart="20dp"
+      android:textAlignment="textStart" />
+  <Button
+      android:id="@+id/theme_red"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/red_DB4336"
+      android:layout_marginTop="20dp"
+      android:text="红色"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:paddingStart="20dp"
+      android:textAlignment="textStart" />
+  <Button
+      android:id="@+id/theme_orange"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/yellow_FE9600"
+      android:layout_marginTop="20dp"
+      android:text="橙色"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:paddingStart="20dp"
+      android:textAlignment="textStart" />
+
+
+</LinearLayout>

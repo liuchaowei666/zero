@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/content_rlayout">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation" />
+
+    <ListView
+        android:id="@+id/main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f3f3f3"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:padding="0dp"
+        android:scrollbars="none" />
+
+    <ImageButton
+        android:id="@+id/main_btn_more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/more"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/main_morebtn_bg" />
+
+    <ImageButton
+        android:id="@+id/main_btn_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/jiahao"
+        android:layout_alignBottom="@id/main_btn_more"
+        android:background="@drawable/main_editbtn_bg"
+        android:layout_toStartOf="@id/main_btn_more" />
+
+</RelativeLayout>

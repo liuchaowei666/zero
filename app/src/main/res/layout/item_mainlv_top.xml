@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f3f3f3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_mainlv_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@mipmap/origin_202011011501537926">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:paddingStart="30dp"
+            android:paddingTop="40dp"
+            android:paddingEnd="30dp">
+
+            <ImageView
+                android:id="@+id/item_mainlv_iv_more"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/more" />
+            <TextView
+                android:id="@+id/item_mainlv_top_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_iv_more"
+                android:text="@string/month_expend"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/main_iv_search"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/sousuo" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_expend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_tv1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="19.5"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/item_mainlv_top_iv_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_iv_search"
+                android:layout_alignTop="@id/item_mainlv_top_expend"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-9dp"
+                android:layout_marginEnd="135dp"
+                android:visibility="gone"
+                android:src="@mipmap/ih_show" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_expend"
+                android:text="@string/month_income"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_expend"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/item_mainlv_top_tv2"
+                android:text="10"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_expend"
+                android:layout_marginStart="50dp"
+                android:layout_toEndOf="@id/item_mainlv_top_income"
+                android:text="@string/month_surplus"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_surplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_expend"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/item_mainlv_top_tv3"
+                android:text="-9.5"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/item_mainlv_top_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_mainlv_top_tv2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="10dp"
+                android:text="@string/statistics"
+                android:textColor="@color/white"
+                app:drawableStartCompat="@mipmap/ih_biaoge" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_mainlv_top_tv_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日支出 0 收入 0"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
